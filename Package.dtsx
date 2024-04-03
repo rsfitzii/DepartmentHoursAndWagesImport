@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="62"
-  DTS:VersionGUID="{4FD0921C-283C-4B03-8D2B-E5ACB852D541}">
+  DTS:VersionBuild="65"
+  DTS:VersionGUID="{1D2EE7E3-8506-4452-A837-4E6BB1540D5F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -40,199 +40,247 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Org Code"
-              DTS:DTSID="{9F2B2E78-30C1-4B0B-8D22-792471F0F111}"
+              DTS:DTSID="{CDD379AA-3C26-4A35-91D9-9D79A3B6AE57}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Gross Wages"
-              DTS:DTSID="{336D3F43-52DE-4F82-A6F6-03363F82CEC7}"
+              DTS:DTSID="{D781F26F-7CC3-4975-86D7-CA35FCB586D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Regular Hours"
-              DTS:DTSID="{9C95B47B-1145-4A75-B140-B3EEEBE5BB0F}"
+              DTS:DTSID="{F396E767-1585-441B-A463-19ECB7A3DEFE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Overtime Hours"
-              DTS:DTSID="{FD4860BD-6AEF-4287-9E57-ABEAF79D2BC9}"
+              DTS:DTSID="{3943D3C8-2AE5-44AF-9BF9-2FC309658B12}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Holiday Hours"
-              DTS:DTSID="{6A359661-A58E-4762-82C7-F0000E19C52B}"
+              DTS:DTSID="{D6BF3DED-8A3D-4E68-B98B-DD57C0317FCF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Bereave Hours"
-              DTS:DTSID="{26E96F11-0FA2-48A9-A0B6-60921EBB9C8B}"
+              DTS:DTSID="{5C2A81C4-7B86-40A1-A2C5-C0FF9B22E0E0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="HolWorked Hours"
-              DTS:DTSID="{32A8CE6C-4A0D-4DF5-A92A-29941AE780B5}"
+              DTS:DTSID="{1053DC0E-9A45-465A-95AC-18631ED67553}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="HolWkOT Hours"
-              DTS:DTSID="{84D00DD9-2CB5-402F-BC9D-29DD9746B67B}"
+              DTS:DTSID="{0EDEDC10-B6BC-4AA6-9308-FB289D64DEEB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="PTO Hours"
-              DTS:DTSID="{3ECAD440-B220-4EF7-AC45-EC8F0563534E}"
+              DTS:DTSID="{B16DFA92-449C-4387-BF78-B2A2FB4B55F0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="HolPrmOTWk Hours"
-              DTS:DTSID="{9CCCA728-9458-4EFC-9CC1-ED7F2B5B1EE9}"
+              DTS:DTSID="{533F070B-62F2-4ADE-83F7-1BDAD6A25426}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="HolPrmWrkd Hours"
-              DTS:DTSID="{4664C6DF-B080-488B-9B09-0B7E51B28DB9}"
+              DTS:DTSID="{D7641B5D-8B46-4710-8045-A91A11B6F837}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Train Hours"
-              DTS:DTSID="{D5B0656B-9239-466C-B1A8-FF3CFB308441}"
+              DTS:DTSID="{CF90FC32-CEDE-4AE6-A2C7-F4A399DD2D9E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Premium Hours"
-              DTS:DTSID="{68D18547-943F-4A77-8DBD-E2B1BCD0F7AB}"
+              DTS:DTSID="{15F28575-B448-4899-A827-17ED708722A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Prem OT Hours"
-              DTS:DTSID="{C9091A3F-15D5-495E-9A1D-7AD2D9B0DB3A}"
+              DTS:DTSID="{0BDBEB5F-7DF4-494C-9312-16A0352A2B29}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="OTPrem Hours"
-              DTS:DTSID="{84268094-29D4-48F8-9EF8-FB567DB74BE6}"
+              DTS:DTSID="{C012D9F8-9FD4-457C-8A0C-E8E9D1EB38F2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Retro Hours"
-              DTS:DTSID="{1644553B-9E17-4CB8-AD8B-58D28C739175}"
+              DTS:DTSID="{0BE4D61E-953E-4E71-8E8F-9F984475301B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="ON Trainer Hours"
-              DTS:DTSID="{FC644941-28D4-45C6-8012-9502004F5245}"
+              DTS:DTSID="{E5804DC7-E2DA-4950-91B7-E2D5446263DD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="TRAIN IST Hours"
-              DTS:DTSID="{6CCC2BCF-F906-4A9C-8AAF-C4822692343A}"
+              DTS:DTSID="{BA3CF9E2-BC23-41AC-9A0D-FE3741A868C0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Train ON Hours"
-              DTS:DTSID="{C6C8B142-A623-4B4E-A9B5-3FEAFE056295}"
+              DTS:DTSID="{78875B64-C7F2-40F0-91B7-EA19D07A0D97}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Trn Corp Hours"
-              DTS:DTSID="{F2B4E540-DC14-4876-BF7F-CAC880DB59BD}"
+              DTS:DTSID="{AFECD40D-8455-45CD-A6C0-A8646AF239EB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Trn Food Hours"
-              DTS:DTSID="{204C1925-02ED-455B-B308-1451434602CE}"
+              DTS:DTSID="{489E26DD-24BB-406A-9FDB-68365CA55230}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Trn NH Hours"
-              DTS:DTSID="{607552F3-9575-4B92-8D99-A4D300F45EE8}"
+              DTS:DTSID="{5D2EC607-AF5D-4B2F-8A52-D9757CD6C09A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Trn Prom Hours"
-              DTS:DTSID="{6F50493A-A534-43F7-9987-2BB6352B2D5B}"
+              DTS:DTSID="{0291C437-2FC5-4495-B93D-0A9972020509}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Trn Rem Hours"
-              DTS:DTSID="{B67C6760-B148-45C7-B4A2-6BD4915666C0}"
+              DTS:DTSID="{E007B4EE-92B6-493D-950D-7762E797BD13}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="14"
+              DTS:DataType="131"
+              DTS:DataPrecision="18"
+              DTS:DataScale="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Meetings Hours"
-              DTS:DTSID="{BCBE576C-2F7E-41B4-BF4E-80D887824098}"
+              DTS:DTSID="{E7EDD81C-8C73-4268-97E0-0D711D8A10E7}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -251,7 +299,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANQoUuLVmOESQeGUwN22U3AAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAA9I0TjZLxIn/X/Lsj/tKt6AAAAAASAAACgAAAAEAAAAO89lPWCUWgvUREhlTMZbY8YAAAAwSpOwmgB05hTPi8uEXi71KJCdB5rNZoJFAAAAOor0FSWqtLbK4qc+5U9V2oeEhzS</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOb/3Zw8hK0uxAmFnXQlROQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC4EOlMhpk0RmRbRzFNC5F4AAAAAASAAACgAAAAEAAAAHa/Bt4arTTbivG/MT5NKC0YAAAAarAxzKG6L1E7kRoYmgX5UD9ljKVg5QxXFAAAAP9BLHWA4li6iBtpTISEQ58MHZGf</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -323,7 +371,7 @@
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
-              Folder="\\admin01\itshare\SSISTemp\DeptHoursImport" />
+              Folder="\\10.10.1.11\itshare\SSISTemp\DeptHoursImport" />
             <FEFEProperty
               FileSpec="*.xlsx" />
             <FEFEProperty
@@ -1285,12 +1333,12 @@ namespace ST_ca2e5d6312d84e3d975af9d15258a0ee
             Excel.Workbook xlworkbook = xlapp.Workbooks.Open(Dts.Variables["User::FileName"].Value.ToString());
             xlworkbook = xlapp.ActiveWorkbook;
             Excel.Worksheet xlsheet = xlapp.ActiveSheet;
-            xlsheet.SaveAs(@"\\admin01\itshare\ssistemp\DeptHoursImport\" + FileName + ".csv", Microsoft.Office.Interop.Excel.XlFileFormat.xlCSV);
+            xlsheet.SaveAs(@"\\10.10.1.11\itshare\ssistemp\DeptHoursImport\" + FileName + ".csv", Microsoft.Office.Interop.Excel.XlFileFormat.xlCSV);
             xlapp.Workbooks.Close();
             xlapp.Quit();
 
-            Dts.Variables["User::FileNameCSV"].Value = "\\\\admin01\\itshare\\ssistemp\\DeptHoursImport\\" + FileName + ".csv";
-            Dts.Variables["User::ArchivePath"].Value = "\\\\admin01\\itshare\\ssistemp\\DeptHoursImport\\Archive\\" +
+            Dts.Variables["User::FileNameCSV"].Value = "\\\\10.10.1.11\\itshare\\ssistemp\\DeptHoursImport\\" + FileName + ".csv";
+            Dts.Variables["User::ArchivePath"].Value = "\\\\10.10.1.11\\itshare\\ssistemp\\DeptHoursImport\\Archive\\" +
                 System.IO.Path.GetFileName(Dts.Variables["User::FileName"].Value.ToString());
 
         }
@@ -1410,7 +1458,7 @@ namespace ST_ca2e5d6312d84e3d975af9d15258a0ee
     <msb:CodeName>ST_ca2e5d6312d84e3d975af9d15258a0ee</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_ca2e5d6312d84e3d975af9d15258a0ee</msb:DisplayName>
-    <msb:ProjectId>{1746026F-6C62-4BF7-993C-BBF9A0F08EE2}</msb:ProjectId>
+    <msb:ProjectId>{6CA650B2-0AAA-41C8-8D6C-8F4A96B7AA66}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_ca2e5d6312d84e3d975af9d15258a0ee.csproj" />
@@ -1539,14 +1587,14 @@ namespace ST_ca2e5d6312d84e3d975af9d15258a0ee.Properties {
               <BinaryItem
                 Name="ST_ca2e5d6312d84e3d975af9d15258a0ee.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAChIJGUAAAAAAAAAAOAAIiALATAAAC4AAAAIAAAAAAAALkwA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAOpDoGUAAAAAAAAAAOAAIiALATAAAC4AAAAIAAAAAAAAOkwA
 AAAgAAAAYAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACgAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAANxLAABPAAAAAGAAAHgEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAOhLAABPAAAAAGAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAIAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAANCwAAAAgAAAALgAAAAIA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAQCwAAAAgAAAALgAAAAIA
 AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAYAAAAAYAAAAwAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAIAAAAACAAAANgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAQ
-TAAAAAAAAEgAAAACAAUAgCUAAKQlAAABAAAAAAAAACRLAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+LnJlbG9jAAAMAAAAAIAAAAACAAAANgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAc
+TAAAAAAAAEgAAAACAAUAgCUAALAlAAABAAAAAAAAADBLAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAABMwEAC7BAAAAQAAEXIBAABwCnIBAABwC3IBAABwDAIoGQAA
 Cm8aAAAKcgMAAHBvGwAACm8cAAAKbx0AAAooHgAACgoGF40rAAABJRYfIJ1vHwAACigBAAArKAIA
 ACsNCSwaCSgDAAArFjERCRZvIwAACiwICRZvIwAACgsJLBoJKAMAACsXMREJGG8jAAAKLAgJGG8j
@@ -1565,14 +1613,14 @@ CgIoGQAAChZvJQAACnKbAABwcysAAAooLAAACigtAAAKdAcAAAIlFm8dAAAGJRZvGAAABhMOEQ5v
 EwAABgIoGQAACm8aAAAKcgMAAHBvGwAACm8cAAAKbx0AAAp+LgAACn4uAAAKfi4AAAp+LgAACn4u
 AAAKfi4AAAp+LgAACn4uAAAKfi4AAAp+LgAACn4uAAAKfi4AAAp+LgAACn4uAAAKbw0AAAYmEQ5v
 EQAABiZ+PwAABC0kFtAOAAACKC8AAArQAgAAAigvAAAKKDAAAAooMQAACoA/AAAEfj8AAAR7MgAA
-Cn4/AAAEEQ5vDwAABm8zAAAKcuUAAHAGcj0BAHAoNAAAChyMDwAAAn4uAAAKfi4AAAp+LgAACn4u
+Cn4/AAAEEQ5vDwAABm8zAAAKcuUAAHAGckMBAHAoNAAAChyMDwAAAn4uAAAKfi4AAAp+LgAACn4u
 AAAKfi4AAAp+LgAACn4uAAAKfi4AAApvHwAABhEObxMAAAZvCwAABhEObxoAAAYCKBkAAApvGgAA
-CnJHAQBwbxsAAApy5QAAcAZyPQEAcCg0AAAKbyoAAAoCKBkAAApvGgAACnJrAQBwbxsAAApyjwEA
+CnJNAQBwbxsAAApy5QAAcAZyQwEAcCg0AAAKbyoAAAoCKBkAAApvGgAACnJxAQBwbxsAAApylQEA
 cAIoGQAACm8aAAAKcgMAAHBvGwAACm8cAAAKbx0AAAooNQAACig2AAAKbyoAAAoqHgIoNwAACioe
-Aig4AAAKKq5+AQAABC0ecvcBAHDQAwAAAigvAAAKbzkAAApzOgAACoABAAAEfgEAAAQqGn4CAAAE
+Aig4AAAKKq5+AQAABC0ecgMCAHDQAwAAAigvAAAKbzkAAApzOgAACoABAAAEfgEAAAQqGn4CAAAE
 Kh4CgAIAAAQqGn4DAAAEKh4CKDsAAAoqLnMIAAAGgAMAAAQqAAAAQlNKQgEAAQAAAAAADAAAAHY0
-LjAuMzAzMTkAAAAABQBsAAAAdA0AACN+AADgDQAAAA0AACNTdHJpbmdzAAAAAOAaAABsAgAAI1VT
-AEwdAAAQAAAAI0dVSUQAAABcHQAASAgAACNCbG9iAAAAAAAAAAIAAAFXP6IJCQsAAAD6ATMAFgAA
+LjAuMzAzMTkAAAAABQBsAAAAdA0AACN+AADgDQAAAA0AACNTdHJpbmdzAAAAAOAaAAB4AgAAI1VT
+AFgdAAAQAAAAI0dVSUQAAABoHQAASAgAACNCbG9iAAAAAAAAAAIAAAFXP6IJCQsAAAD6ATMAFgAA
 AQAAADcAAAAUAAAAPwAAAB8AAAAhAAAABwAAADsAAAA5AAAAWgAAAB4AAAABAAAAAwAAAAkAAAAM
 AAAAAwAAAAEAAAAGAAAAAQAAAAIAAAADAAAAAAD0BwEAAAAAAAYA2QXoCQYAeQboCQYAxwS2CQ8A
 XAoAAAYA9ATRCAYAjQXRCAYAbgXRCAYAYAbRCAYACgbRCAYAIwbRCAYAIgXRCAYAPQW+BgoAPgZl
@@ -1630,7 +1678,7 @@ AhsAdAIdAHQCHwB0AiEAdAIjAHQCJQB2AicAcAIpAHACKwByAjEAcgIzAHQCNQB0AjcAdAI5AHQC
 OwB0Aj0AdAI/AHQCQQB0AkMAdAI3AAMAAQAEAAMAEAAEAAAAZgnsAgAAzAPxAgAABgz2AgAAjwv7
 AgAAHwf/AgAA0woEAwAA8wsJAwAARwsNAwAAKQMNAwIABAADAAIABQAFAAEABgAFAAIABwAHAAIA
 DwAJAAIAEQALAAIAEwANAAIAFQAPAAIAFwARAAEAGAARAAIAHAATAAEAHQATALIAAAEeAQSAAAAB
-AAAA6iGsXwAAAAAAAMMCAAAEAAAAAAAAAAAAAABMAfUBAAAAAA8AAAAAAAAAAAAAAFUBRgcAAAAA
+AAAASCIEYAAAAAAAAMMCAAAEAAAAAAAAAAAAAABMAfUBAAAAAA8AAAAAAAAAAAAAAFUBRgcAAAAA
 BAAAAAAAAAAAAAAATAGYAwAAAAAEAAAAAAAAAAAAAABMASwIAAAAAA8AAAAAAAAAAAAAAFUBvwEA
 AAAABAAAAAAAAAAAAAAAXgEFCQAAAAAAAAAAAQAAABkKAAATAAIAFAACAEEAkQBDAJEARQCRAAAA
 AF9WdGJsR2FwMV8xMzAAX1Z0YmxHYXA0XzYwADw+b19fMAA8PnBfXzAAX1Z0YmxHYXA3XzUxAHhs
@@ -1695,56 +1743,56 @@ aXR5AERlZmF1bHRJZkVtcHR5AAAAAAABAB1VAHMAZQByADoAOgBGAGkAbABlAE4AYQBtAGUAACFJ
 AG4AdgBhAGwAaQBkACAARgBpAGwAZQBuAGEAbQBlAAADLQABK1UAcwBlAHIAOgA6AFAAZQByAGkA
 bwBkAFMAdABhAHIAdABEAGEAdABlAAAnVQBzAGUAcgA6ADoAUABlAHIAaQBvAGQARQBuAGQARABh
 AHQAZQAASTAAMAAwADIANAA1ADAAMAAtADAAMAAwADAALQAwADAAMAAwAC0AQwAwADAAMAAtADAA
-MAAwADAAMAAwADAAMAAwADAANAA2AAFXXABcAGEAZABtAGkAbgAwADEAXABpAHQAcwBoAGEAcgBl
-AFwAcwBzAGkAcwB0AGUAbQBwAFwARABlAHAAdABIAG8AdQByAHMASQBtAHAAbwByAHQAXAAACS4A
-YwBzAHYAACNVAHMAZQByADoAOgBGAGkAbABlAE4AYQBtAGUAQwBTAFYAACNVAHMAZQByADoAOgBB
-AHIAYwBoAGkAdgBlAFAAYQB0AGgAAGdcAFwAYQBkAG0AaQBuADAAMQBcAGkAdABzAGgAYQByAGUA
-XABzAHMAaQBzAHQAZQBtAHAAXABEAGUAcAB0AEgAbwB1AHIAcwBJAG0AcABvAHIAdABcAEEAcgBj
-AGgAaQB2AGUAXAAAcVMAVABfAGMAYQAyAGUANQBkADYAMwAxADIAZAA4ADQAZQAzAGQAOQA3ADUA
-YQBmADkAZAAxADUAMgA1ADgAYQAwAGUAZQAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBv
-AHUAcgBjAGUAcwAAAAAAXlk2ip+ceUCtuv2jQpHOWAAEIAEBCAMgAAEFIAEBEREEIAEBDgUgAQER
-aQQgAQEGCSACARKAgRKAgQUgAgEODgYgAQESgIEgBw8ODg4VEj0BDhUSPQEOFRI9AQ4ODg4ODg4R
-QRFBEhwFIAASgJ0FIAASgKEGIAESgKUcAyAAHAMgAA4EAAEODgYgAR0OHQMREAEBFRKAuQEeABUS
-gLkBHgADCgEOEBABARUSPQEeABUSgLkBHgALEAEBCBUSgLkBHgAFFRI9AQ4FIAETAAgFAAICDg4F
-AAEOHQ4FAAERQQ4EIAEBHAgAARKAgRGAwQYAARwSgIECBhwIAAESgIERgM0OAAMSgNURgNkSgIES
-gIENFRJRARUSVQMSWRwSOAsAARUSUQETABKA1QMGEwAJFRJVAxJZHBI4CCACEwITABMBBgADDg4O
-DgUAAg4ODgUgABKA3QcgAgEOEoDdCLd6XFYZNOCJCImEXc2AgMyRCLA/X38R1Qo6BBIAAAAEBgAA
-AAQWAAAABBgAAAAEFwAAAAQHAAAABAgAAAAECwAAAAQJAAAABBAAAAAEGwAAAAQdAAAABCEAAAAE
-JwAAAAQrAAAABCMAAAAEGgAAAAQZAAAABNHv//8EAgAAAAQRAAAABMLv//8EEwAAAAQVAAAABCQA
-AAAEFAAAAAQOAAAABAUAAAAEHwAAAAQeAAAABA8AAAAEJgAAAAQgAAAABAQAAAAEHAAAAAQiAAAA
-BCgAAAAEKQAAAAQqAAAABCwAAAAELQAAAAQuAAAABDIAAAAEMwAAAAQ0AAAABDUAAAAENgAAAAQ3
-AAAABDgAAAAEPAAAAAQ9AAAABAAAAAAEAQAAAAEcARMBGwEaAwYSYQMGEmUDBhIQAgYIAwYRPAMG
-EUwOBhUSUQEVElUDElkcEjgEAAASYQQAABJlBQABARJlBAAAEhADAAABEyAPEigOHBwcHBwcHBwc
-HBwcHBwEIAASKAQgABI0AyAAAgQgAQECDSAKAQ4cHBwcHBwcHBwECAASYQQIABJlBAgAEhADCAAc
-BAgAEigECAASNAMIAA4DCAACCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dz
-AQgBAAIAAAAAACgBACNTVF9jYTJlNWQ2MzEyZDg0ZTNkOTc1YWY5ZDE1MjU4YTBlZQAABQEAAAAA
-FgEAEUNvcHlyaWdodCBAICAyMDIzAABJAQAaLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjcBAFQO
-FEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuNwgBABUBAAAAAAgBAAAAAAAA
-AAgBAIMHAAAAAAgBAA8AAAAAAAgBADMBAAAAAAgBADQBAAAAAAgBADwCAAAAAAgBAFcBAAAAAAgB
-AC4BAAAAAAgBAC4CAAAAAAgBAIUHAAAAAAYBAAIAAAApAQAkMDAwMjQ0MTMtMDAwMC0wMDAwLUMw
-MDAtMDAwMDAwMDAwMDQ2AABWAQAoTWljcm9zb2Z0Lk9mZmljZS5JbnRlcm9wLkV4Y2VsLkFwcEV2
-ZW50cyhNaWNyb3NvZnQuT2ZmaWNlLkludGVyb3AuRXhjZWwuQXBwRXZlbnRzAABYAQAkMDAwMjA4
-MTMtMDAwMC0wMDAwLWMwMDAtMDAwMDAwMDAwMDQ2Lk1pY3Jvc29mdC5PZmZpY2UuSW50ZXJvcC5F
-eGNlbC5BcHBFdmVudHNfRXZlbnQAACkBACQwMDAyMDhENS0wMDAwLTAwMDAtQzAwMC0wMDAwMDAw
-MDAwNDYAAF8BAFpTeXN0ZW0uT2JqZWN0LCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0
-dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkAACkBACQwMDAyNDQx
-MS0wMDAwLTAwMDAtQzAwMC0wMDAwMDAwMDAwNDYAAFYBAChNaWNyb3NvZnQuT2ZmaWNlLkludGVy
-b3AuRXhjZWwuRG9jRXZlbnRzKE1pY3Jvc29mdC5PZmZpY2UuSW50ZXJvcC5FeGNlbC5Eb2NFdmVu
-dHMAAFgBACQwMDAyMDgxMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwNDYuTWljcm9zb2Z0Lk9m
-ZmljZS5JbnRlcm9wLkV4Y2VsLkRvY0V2ZW50c19FdmVudAAAKQEAJDAwMDIwOERBLTAwMDAtMDAw
-MC1DMDAwLTAwMDAwMDAwMDA0NgAAKQEAJDAwMDI0NDEyLTAwMDAtMDAwMC1DMDAwLTAwMDAwMDAw
-MDA0NgAAYAEALU1pY3Jvc29mdC5PZmZpY2UuSW50ZXJvcC5FeGNlbC5Xb3JrYm9va0V2ZW50cy1N
-aWNyb3NvZnQuT2ZmaWNlLkludGVyb3AuRXhjZWwuV29ya2Jvb2tFdmVudHMAAF0BACQwMDAyMDgx
-My0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwNDYzTWljcm9zb2Z0Lk9mZmljZS5JbnRlcm9wLkV4
-Y2VsLldvcmtib29rRXZlbnRzX0V2ZW50AAApAQAkMDAwMjA4REItMDAwMC0wMDAwLUMwMDAtMDAw
-MDAwMDAwMDQ2AAANAQAIX0RlZmF1bHQAACkBACQwMDAyMDhEOC0wMDAwLTAwMDAtQzAwMC0wMDAw
-MDAwMDAwNDYAAFUBACQwMDAyMDgxMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwNDYrTWljcm9z
-b2Z0Lk9mZmljZS5JbnRlcm9wLkV4Y2VsLlhsRmlsZUZvcm1hdAAAAAAAtAAAAM7K774BAAAAkQAA
-AGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAu
-MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lz
-dGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAAARM
-AAAAAAAAAAAAAB5MAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQTAAAAAAAAAAAAAAAAF9Db3JE
-bGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+MAAwADAAMAAwADAAMAAwADAANAA2AAFdXABcADEAMAAuADEAMAAuADEALgAxADEAXABpAHQAcwBo
+AGEAcgBlAFwAcwBzAGkAcwB0AGUAbQBwAFwARABlAHAAdABIAG8AdQByAHMASQBtAHAAbwByAHQA
+XAAACS4AYwBzAHYAACNVAHMAZQByADoAOgBGAGkAbABlAE4AYQBtAGUAQwBTAFYAACNVAHMAZQBy
+ADoAOgBBAHIAYwBoAGkAdgBlAFAAYQB0AGgAAG1cAFwAMQAwAC4AMQAwAC4AMQAuADEAMQBcAGkA
+dABzAGgAYQByAGUAXABzAHMAaQBzAHQAZQBtAHAAXABEAGUAcAB0AEgAbwB1AHIAcwBJAG0AcABv
+AHIAdABcAEEAcgBjAGgAaQB2AGUAXAAAcVMAVABfAGMAYQAyAGUANQBkADYAMwAxADIAZAA4ADQA
+ZQAzAGQAOQA3ADUAYQBmADkAZAAxADUAMgA1ADgAYQAwAGUAZQAuAFAAcgBvAHAAZQByAHQAaQBl
+AHMALgBSAGUAcwBvAHUAcgBjAGUAcwAAAAAABLl8+bZHiUe9dwqtX1nwWAAEIAEBCAMgAAEFIAEB
+EREEIAEBDgUgAQERaQQgAQEGCSACARKAgRKAgQUgAgEODgYgAQESgIEgBw8ODg4VEj0BDhUSPQEO
+FRI9AQ4ODg4ODg4RQRFBEhwFIAASgJ0FIAASgKEGIAESgKUcAyAAHAMgAA4EAAEODgYgAR0OHQMR
+EAEBFRKAuQEeABUSgLkBHgADCgEOEBABARUSPQEeABUSgLkBHgALEAEBCBUSgLkBHgAFFRI9AQ4F
+IAETAAgFAAICDg4FAAEOHQ4FAAERQQ4EIAEBHAgAARKAgRGAwQYAARwSgIECBhwIAAESgIERgM0O
+AAMSgNURgNkSgIESgIENFRJRARUSVQMSWRwSOAsAARUSUQETABKA1QMGEwAJFRJVAxJZHBI4CCAC
+EwITABMBBgADDg4ODgUAAg4ODgUgABKA3QcgAgEOEoDdCLd6XFYZNOCJCImEXc2AgMyRCLA/X38R
+1Qo6BBIAAAAEBgAAAAQWAAAABBgAAAAEFwAAAAQHAAAABAgAAAAECwAAAAQJAAAABBAAAAAEGwAA
+AAQdAAAABCEAAAAEJwAAAAQrAAAABCMAAAAEGgAAAAQZAAAABNHv//8EAgAAAAQRAAAABMLv//8E
+EwAAAAQVAAAABCQAAAAEFAAAAAQOAAAABAUAAAAEHwAAAAQeAAAABA8AAAAEJgAAAAQgAAAABAQA
+AAAEHAAAAAQiAAAABCgAAAAEKQAAAAQqAAAABCwAAAAELQAAAAQuAAAABDIAAAAEMwAAAAQ0AAAA
+BDUAAAAENgAAAAQ3AAAABDgAAAAEPAAAAAQ9AAAABAAAAAAEAQAAAAEcARMBGwEaAwYSYQMGEmUD
+BhIQAgYIAwYRPAMGEUwOBhUSUQEVElUDElkcEjgEAAASYQQAABJlBQABARJlBAAAEhADAAABEyAP
+EigOHBwcHBwcHBwcHBwcHBwEIAASKAQgABI0AyAAAgQgAQECDSAKAQ4cHBwcHBwcHBwECAASYQQI
+ABJlBAgAEhADCAAcBAgAEigECAASNAMIAA4DCAACCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhj
+ZXB0aW9uVGhyb3dzAQgBAAIAAAAAACgBACNTVF9jYTJlNWQ2MzEyZDg0ZTNkOTc1YWY5ZDE1MjU4
+YTBlZQAABQEAAAAAFgEAEUNvcHlyaWdodCBAICAyMDIzAABJAQAaLk5FVEZyYW1ld29yayxWZXJz
+aW9uPXY0LjcBAFQOFEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuNwgBABUB
+AAAAAAgBAAAAAAAAAAgBAIMHAAAAAAgBAA8AAAAAAAgBADMBAAAAAAgBADQBAAAAAAgBADwCAAAA
+AAgBAFcBAAAAAAgBAC4BAAAAAAgBAC4CAAAAAAgBAIUHAAAAAAYBAAIAAAApAQAkMDAwMjQ0MTMt
+MDAwMC0wMDAwLUMwMDAtMDAwMDAwMDAwMDQ2AABWAQAoTWljcm9zb2Z0Lk9mZmljZS5JbnRlcm9w
+LkV4Y2VsLkFwcEV2ZW50cyhNaWNyb3NvZnQuT2ZmaWNlLkludGVyb3AuRXhjZWwuQXBwRXZlbnRz
+AABYAQAkMDAwMjA4MTMtMDAwMC0wMDAwLWMwMDAtMDAwMDAwMDAwMDQ2Lk1pY3Jvc29mdC5PZmZp
+Y2UuSW50ZXJvcC5FeGNlbC5BcHBFdmVudHNfRXZlbnQAACkBACQwMDAyMDhENS0wMDAwLTAwMDAt
+QzAwMC0wMDAwMDAwMDAwNDYAAF8BAFpTeXN0ZW0uT2JqZWN0LCBtc2NvcmxpYiwgVmVyc2lvbj00
+LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkA
+ACkBACQwMDAyNDQxMS0wMDAwLTAwMDAtQzAwMC0wMDAwMDAwMDAwNDYAAFYBAChNaWNyb3NvZnQu
+T2ZmaWNlLkludGVyb3AuRXhjZWwuRG9jRXZlbnRzKE1pY3Jvc29mdC5PZmZpY2UuSW50ZXJvcC5F
+eGNlbC5Eb2NFdmVudHMAAFgBACQwMDAyMDgxMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwNDYu
+TWljcm9zb2Z0Lk9mZmljZS5JbnRlcm9wLkV4Y2VsLkRvY0V2ZW50c19FdmVudAAAKQEAJDAwMDIw
+OERBLTAwMDAtMDAwMC1DMDAwLTAwMDAwMDAwMDA0NgAAKQEAJDAwMDI0NDEyLTAwMDAtMDAwMC1D
+MDAwLTAwMDAwMDAwMDA0NgAAYAEALU1pY3Jvc29mdC5PZmZpY2UuSW50ZXJvcC5FeGNlbC5Xb3Jr
+Ym9va0V2ZW50cy1NaWNyb3NvZnQuT2ZmaWNlLkludGVyb3AuRXhjZWwuV29ya2Jvb2tFdmVudHMA
+AF0BACQwMDAyMDgxMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwNDYzTWljcm9zb2Z0Lk9mZmlj
+ZS5JbnRlcm9wLkV4Y2VsLldvcmtib29rRXZlbnRzX0V2ZW50AAApAQAkMDAwMjA4REItMDAwMC0w
+MDAwLUMwMDAtMDAwMDAwMDAwMDQ2AAANAQAIX0RlZmF1bHQAACkBACQwMDAyMDhEOC0wMDAwLTAw
+MDAtQzAwMC0wMDAwMDAwMDAwNDYAAFUBACQwMDAyMDgxMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAw
+MDAwNDYrTWljcm9zb2Z0Lk9mZmljZS5JbnRlcm9wLkV4Y2VsLlhsRmlsZUZvcm1hdAAAAAAAtAAA
+AM7K774BAAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwg
+VmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2
+MTkzNGUwODkjU3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQ
+QURQQURQtAAAABBMAAAAAAAAAAAAACpMAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcTAAAAAAA
+AAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1755,14 +1803,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAAAYAACA
 AAAAAAAAAAAAAAAAAAABAAEAAAAwAACAAAAAAAAAAAAAAAAAAAABAAAAAABIAAAAWGAAABoEAAAA
 AAAAAAAAABoENAAAAFYAUwBfAFYARQBSAFMASQBPAE4AXwBJAE4ARgBPAAAAAAC9BO/+AAABAAAA
-AQCsX+ohAAABAKxf6iE/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAARAAAAAEAVgBhAHIARgBp
+AQAEYEgiAAABAARgSCI/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAARAAAAAEAVgBhAHIARgBp
 AGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBvAG4AAAAAAAAAsAR6AwAA
 AQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAABWAwAAAQAwADAAMAAwADAANABiADAAAAAa
 AAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAAIgABAAEAQwBvAG0AcABhAG4AeQBOAGEAbQBlAAAA
 AAAAAAAAcAAkAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4AAAAAAFMAVABfAGMAYQAy
 AGUANQBkADYAMwAxADIAZAA4ADQAZQAzAGQAOQA3ADUAYQBmADkAZAAxADUAMgA1ADgAYQAwAGUA
-ZQAAAD4ADwABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAALgA4ADYAOAAyAC4AMgA0
-ADQAOQAyAAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMAVABfAGMAYQAyAGUA
+ZQAAAD4ADwABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAALgA4ADcANwA2AC4AMgA0
+ADUAOAAwAAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMAVABfAGMAYQAyAGUA
 NQBkADYAMwAxADIAZAA4ADQAZQAzAGQAOQA3ADUAYQBmADkAZAAxADUAMgA1ADgAYQAwAGUAZQAu
 AGQAbABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAQwBvAHAAeQByAGkA
 ZwBoAHQAIABAACAAIAAyADAAMgAzAAAAKgABAAEATABlAGcAYQBsAFQAcgBhAGQAZQBtAGEAcgBr
@@ -1770,16 +1818,16 @@ AHMAAAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEAbQBlAAAAUwBUAF8A
 YwBhADIAZQA1AGQANgAzADEAMgBkADgANABlADMAZAA5ADcANQBhAGYAOQBkADEANQAyADUAOABh
 ADAAZQBlAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUAAAAAAFMAVABfAGMA
 YQAyAGUANQBkADYAMwAxADIAZAA4ADQAZQAzAGQAOQA3ADUAYQBmADkAZAAxADUAMgA1ADgAYQAw
-AGUAZQAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AOAA2ADgA
-MgAuADIANAA0ADkAMgAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAA
-ADEALgAwAC4AOAA2ADgAMgAuADIANAA0ADkAMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AGUAZQAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AOAA3ADcA
+NgAuADIANAA1ADgAMAAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAA
+ADEALgAwAC4AOAA3ADcANgAuADIANAA1ADgAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAwAAAAwPAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAwAAAA8PAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1851,123 +1899,171 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Org Code]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Gross Wages]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Gross Wages"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Gross Wages]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Regular Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Regular Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Regular Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Overtime Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Overtime Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Overtime Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Holiday Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Holiday Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Holiday Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Bereave Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Bereave Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Bereave Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[HolWorked Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="HolWorked Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolWorked Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[HolWkOT Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="HolWkOT Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolWkOT Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[PTO Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="PTO Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[PTO Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[HolPrmOTWk Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="HolPrmOTWk Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolPrmOTWk Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[HolPrmWrkd Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="HolPrmWrkd Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolPrmWrkd Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Train Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Train Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Train Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Premium Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Premium Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Premium Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[OTPrem Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="OTPrem Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[OTPrem Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Prem OT Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Prem OT Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Prem OT Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Retro Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Retro Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Retro Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[ON Trainer Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="ON Trainer Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[ON Trainer Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[TRAIN IST Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="TRAIN IST Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[TRAIN IST Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Train ON Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Train ON Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Train ON Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Trn Corp Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Trn Corp Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Corp Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Trn Food Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Trn Food Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Food Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Trn NH Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Trn NH Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn NH Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Trn Prom Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Trn Prom Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Prom Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Trn Rem Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Trn Rem Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Rem Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Meetings Hours]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Meetings Hours"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Meetings Hours]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Inputs[Aggregate Input 1].Columns[Salary]"
@@ -2034,9 +2130,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[GrossWages]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[GrossWages]"
-                          name="GrossWages">
+                          name="GrossWages"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2060,9 +2158,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Regular]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Regular]"
-                          name="Regular">
+                          name="Regular"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2086,9 +2186,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Overtime]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Overtime]"
-                          name="Overtime">
+                          name="Overtime"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2112,9 +2214,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Holiday]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Holiday]"
-                          name="Holiday">
+                          name="Holiday"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2138,9 +2242,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Bereavement]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Bereavement]"
-                          name="Bereavement">
+                          name="Bereavement"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2164,9 +2270,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayWorked]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayWorked]"
-                          name="HolidayWorked">
+                          name="HolidayWorked"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2190,9 +2298,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayWorkedOvertime]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayWorkedOvertime]"
-                          name="HolidayWorkedOvertime">
+                          name="HolidayWorkedOvertime"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2216,9 +2326,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[PTO]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[PTO]"
-                          name="PTO">
+                          name="PTO"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2242,9 +2354,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayPremiumOvertimeWorked]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayPremiumOvertimeWorked]"
-                          name="HolidayPremiumOvertimeWorked">
+                          name="HolidayPremiumOvertimeWorked"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2268,9 +2382,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayPremiumWorked]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayPremiumWorked]"
-                          name="HolidayPremiumWorked">
+                          name="HolidayPremiumWorked"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2294,9 +2410,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Training]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Training]"
-                          name="Training">
+                          name="Training"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2320,9 +2438,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Premium]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Premium]"
-                          name="Premium">
+                          name="Premium"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2346,9 +2466,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[PremiumOvertime]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[PremiumOvertime]"
-                          name="PremiumOvertime">
+                          name="PremiumOvertime"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2372,9 +2494,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[PremiumOvertime2]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[PremiumOvertime2]"
-                          name="PremiumOvertime2">
+                          name="PremiumOvertime2"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2398,9 +2522,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Retro]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Retro]"
-                          name="Retro">
+                          name="Retro"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2424,9 +2550,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[ONTrainer]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[ONTrainer]"
-                          name="ONTrainer">
+                          name="ONTrainer"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2450,9 +2578,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainIST]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainIST]"
-                          name="TrainIST">
+                          name="TrainIST"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2476,9 +2606,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[ONTrainer2]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[ONTrainer2]"
-                          name="ONTrainer2">
+                          name="ONTrainer2"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2502,9 +2634,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainCorp]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainCorp]"
-                          name="TrainCorp">
+                          name="TrainCorp"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2528,9 +2662,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainFood]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainFood]"
-                          name="TrainFood">
+                          name="TrainFood"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2554,9 +2690,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainNewHire]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainNewHire]"
-                          name="TrainNewHire">
+                          name="TrainNewHire"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2580,9 +2718,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainProm]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainProm]"
-                          name="TrainProm">
+                          name="TrainProm"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2606,9 +2746,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainRem]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainRem]"
-                          name="TrainRem">
+                          name="TrainRem"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2632,9 +2774,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Meeting]"
-                          dataType="decimal"
+                          dataType="numeric"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Meeting]"
-                          name="Meeting">
+                          name="Meeting"
+                          precision="18"
+                          scale="2">
                           <properties>
                             <property
                               containsID="true"
@@ -2919,12 +3063,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Gross Wages]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Gross Wages]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Gross Wages]"
                           name="Gross Wages"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -2939,12 +3085,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Regular Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Regular Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Regular Hours]"
                           name="Regular Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -2959,12 +3107,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Overtime Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Overtime Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Overtime Hours]"
                           name="Overtime Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -2979,12 +3129,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Holiday Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Holiday Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Holiday Hours]"
                           name="Holiday Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -2999,12 +3151,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Bereave Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Bereave Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Bereave Hours]"
                           name="Bereave Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3019,12 +3173,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolWorked Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[HolWorked Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolWorked Hours]"
                           name="HolWorked Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3039,12 +3195,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolWkOT Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[HolWkOT Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolWkOT Hours]"
                           name="HolWkOT Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3059,12 +3217,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[PTO Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PTO Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[PTO Hours]"
                           name="PTO Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3079,12 +3239,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolPrmOTWk Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[HolPrmOTWk Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolPrmOTWk Hours]"
                           name="HolPrmOTWk Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3099,12 +3261,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolPrmWrkd Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[HolPrmWrkd Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[HolPrmWrkd Hours]"
                           name="HolPrmWrkd Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3119,12 +3283,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Train Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Train Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Train Hours]"
                           name="Train Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3139,12 +3305,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Premium Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Premium Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Premium Hours]"
                           name="Premium Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3159,12 +3327,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Prem OT Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Prem OT Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Prem OT Hours]"
                           name="Prem OT Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3179,12 +3349,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[OTPrem Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[OTPrem Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[OTPrem Hours]"
                           name="OTPrem Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3199,12 +3371,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Retro Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Retro Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Retro Hours]"
                           name="Retro Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3219,12 +3393,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[ON Trainer Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ON Trainer Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[ON Trainer Hours]"
                           name="ON Trainer Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3239,12 +3415,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[TRAIN IST Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TRAIN IST Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[TRAIN IST Hours]"
                           name="TRAIN IST Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3259,12 +3437,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Train ON Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Train ON Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Train ON Hours]"
                           name="Train ON Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3279,12 +3459,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Corp Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn Corp Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Corp Hours]"
                           name="Trn Corp Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3299,12 +3481,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Food Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn Food Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Food Hours]"
                           name="Trn Food Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3319,12 +3503,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn NH Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn NH Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn NH Hours]"
                           name="Trn NH Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3339,12 +3525,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Prom Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn Prom Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Prom Hours]"
                           name="Trn Prom Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3359,12 +3547,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Rem Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn Rem Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Trn Rem Hours]"
                           name="Trn Rem Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3379,12 +3569,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                         </outputColumn>
                         <outputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Meetings Hours]"
-                          dataType="decimal"
+                          dataType="numeric"
                           errorOrTruncationOperation="Conversion"
                           errorRowDisposition="FailComponent"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Meetings Hours]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].Columns[Meetings Hours]"
                           name="Meetings Hours"
+                          precision="18"
+                          scale="2"
                           truncationRowDisposition="FailComponent">
                           <properties>
                             <property
@@ -3408,100 +3600,148 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                           name="Org Code" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Gross Wages]"
-                          dataType="decimal"
-                          name="Gross Wages" />
+                          dataType="numeric"
+                          name="Gross Wages"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Regular Hours]"
-                          dataType="decimal"
-                          name="Regular Hours" />
+                          dataType="numeric"
+                          name="Regular Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Overtime Hours]"
-                          dataType="decimal"
-                          name="Overtime Hours" />
+                          dataType="numeric"
+                          name="Overtime Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Holiday Hours]"
-                          dataType="decimal"
-                          name="Holiday Hours" />
+                          dataType="numeric"
+                          name="Holiday Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Bereave Hours]"
-                          dataType="decimal"
-                          name="Bereave Hours" />
+                          dataType="numeric"
+                          name="Bereave Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[HolWorked Hours]"
-                          dataType="decimal"
-                          name="HolWorked Hours" />
+                          dataType="numeric"
+                          name="HolWorked Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[HolWkOT Hours]"
-                          dataType="decimal"
-                          name="HolWkOT Hours" />
+                          dataType="numeric"
+                          name="HolWkOT Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PTO Hours]"
-                          dataType="decimal"
-                          name="PTO Hours" />
+                          dataType="numeric"
+                          name="PTO Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[HolPrmOTWk Hours]"
-                          dataType="decimal"
-                          name="HolPrmOTWk Hours" />
+                          dataType="numeric"
+                          name="HolPrmOTWk Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[HolPrmWrkd Hours]"
-                          dataType="decimal"
-                          name="HolPrmWrkd Hours" />
+                          dataType="numeric"
+                          name="HolPrmWrkd Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Train Hours]"
-                          dataType="decimal"
-                          name="Train Hours" />
+                          dataType="numeric"
+                          name="Train Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Premium Hours]"
-                          dataType="decimal"
-                          name="Premium Hours" />
+                          dataType="numeric"
+                          name="Premium Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Prem OT Hours]"
-                          dataType="decimal"
-                          name="Prem OT Hours" />
+                          dataType="numeric"
+                          name="Prem OT Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[OTPrem Hours]"
-                          dataType="decimal"
-                          name="OTPrem Hours" />
+                          dataType="numeric"
+                          name="OTPrem Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Retro Hours]"
-                          dataType="decimal"
-                          name="Retro Hours" />
+                          dataType="numeric"
+                          name="Retro Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ON Trainer Hours]"
-                          dataType="decimal"
-                          name="ON Trainer Hours" />
+                          dataType="numeric"
+                          name="ON Trainer Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TRAIN IST Hours]"
-                          dataType="decimal"
-                          name="TRAIN IST Hours" />
+                          dataType="numeric"
+                          name="TRAIN IST Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Train ON Hours]"
-                          dataType="decimal"
-                          name="Train ON Hours" />
+                          dataType="numeric"
+                          name="Train ON Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn Corp Hours]"
-                          dataType="decimal"
-                          name="Trn Corp Hours" />
+                          dataType="numeric"
+                          name="Trn Corp Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn Food Hours]"
-                          dataType="decimal"
-                          name="Trn Food Hours" />
+                          dataType="numeric"
+                          name="Trn Food Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn NH Hours]"
-                          dataType="decimal"
-                          name="Trn NH Hours" />
+                          dataType="numeric"
+                          name="Trn NH Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn Prom Hours]"
-                          dataType="decimal"
-                          name="Trn Prom Hours" />
+                          dataType="numeric"
+                          name="Trn Prom Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Trn Rem Hours]"
-                          dataType="decimal"
-                          name="Trn Rem Hours" />
+                          dataType="numeric"
+                          name="Trn Rem Hours"
+                          precision="18"
+                          scale="2" />
                         <externalMetadataColumn
                           refId="Package\Process Each File In Folder\Load The File Data\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Meetings Hours]"
-                          dataType="decimal"
-                          name="Meetings Hours" />
+                          dataType="numeric"
+                          name="Meetings Hours"
+                          precision="18"
+                          scale="2" />
                       </externalMetadataColumns>
                     </output>
                     <output
@@ -3615,146 +3855,194 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[StoreNumber]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[GrossWages]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="GrossWages"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GrossWages]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[GrossWages]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Regular]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Regular"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Regular]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Regular]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Overtime]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Overtime"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Overtime]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Overtime]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Holiday]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Holiday"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Holiday]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Holiday]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Bereavement]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Bereavement"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Bereavement]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Bereavement]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[HolidayWorked]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="HolidayWorked"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HolidayWorked]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayWorked]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[HolidayWorkedOvertime]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="HolidayWorkedOvertime"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HolidayWorkedOvertime]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayWorkedOvertime]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PTO]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="PTO"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PTO]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[PTO]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[HolidayPremiumOvertimeWorked]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="HolidayPremiumOvertimeWorked"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HolidayPremiumOvertimeWorked]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayPremiumOvertimeWorked]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[HolidayPremiumWorked]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="HolidayPremiumWorked"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HolidayPremiumWorked]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[HolidayPremiumWorked]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Training]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Training"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Training]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Training]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Premium]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Premium"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Premium]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Premium]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PremiumOvertime]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="PremiumOvertime"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PremiumOvertime]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[PremiumOvertime]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PremiumOvertime2]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="PremiumOvertime2"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PremiumOvertime2]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[PremiumOvertime2]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Retro]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Retro"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Retro]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Retro]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ONTrainer]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="ONTrainer"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ONTrainer]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[ONTrainer]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TrainIST]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="TrainIST"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrainIST]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainIST]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ONTrainer2]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="ONTrainer2"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ONTrainer2]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[ONTrainer2]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TrainCorp]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="TrainCorp"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrainCorp]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainCorp]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TrainFood]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="TrainFood"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrainFood]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainFood]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TrainNewHire]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="TrainNewHire"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrainNewHire]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainNewHire]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TrainProm]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="TrainProm"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrainProm]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainProm]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TrainRem]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="TrainRem"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TrainRem]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[TrainRem]" />
                         <inputColumn
                           refId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Meeting]"
-                          cachedDataType="decimal"
+                          cachedDataType="numeric"
                           cachedName="Meeting"
+                          cachedPrecision="18"
+                          cachedScale="2"
                           externalMetadataColumnId="Package\Process Each File In Folder\Load The File Data\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Meeting]"
                           lineageId="Package\Process Each File In Folder\Load The File Data\Aggregate.Outputs[Aggregate Output 1].Columns[Meeting]" />
                         <inputColumn
@@ -4044,32 +4332,32 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{000672D1-013B-4D82-A989-F928D4C74DE1}"
-          DTS:ObjectName="{000672D1-013B-4D82-A989-F928D4C74DE1}"
+          DTS:DTSID="{36A4C8B8-7E37-4987-A879-166D307A6941}"
+          DTS:ObjectName="{36A4C8B8-7E37-4987-A879-166D307A6941}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::FileName" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{C715CD03-5F78-4C3F-9E39-EEFF39AC766C}"
-          DTS:ObjectName="{C715CD03-5F78-4C3F-9E39-EEFF39AC766C}"
+          DTS:DTSID="{2A266095-FAD4-4930-8CBE-E28DE579B32C}"
+          DTS:ObjectName="{2A266095-FAD4-4930-8CBE-E28DE579B32C}"
           DTS:ValueIndex="1"
           DTS:VariableName="User::PeriodStartDate" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{8BCA951B-AE6A-4B7B-BFCD-082ECB8A1D13}"
-          DTS:ObjectName="{8BCA951B-AE6A-4B7B-BFCD-082ECB8A1D13}"
+          DTS:DTSID="{74674B7F-ED50-4C08-BD7E-330649C0B50D}"
+          DTS:ObjectName="{74674B7F-ED50-4C08-BD7E-330649C0B50D}"
           DTS:ValueIndex="2"
           DTS:VariableName="User::PeriodEndDate" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{8B863C0B-1C2C-45CF-B6A1-95D17C01A4DB}"
-          DTS:ObjectName="{8B863C0B-1C2C-45CF-B6A1-95D17C01A4DB}"
+          DTS:DTSID="{EFB3A24C-089A-494F-844F-80ABD92EB879}"
+          DTS:ObjectName="{EFB3A24C-089A-494F-844F-80ABD92EB879}"
           DTS:ValueIndex="3"
           DTS:VariableName="User::FileNameCSV" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{37023493-EF2A-4FCD-BE9F-0220B7F9DC20}"
-          DTS:ObjectName="{37023493-EF2A-4FCD-BE9F-0220B7F9DC20}"
+          DTS:DTSID="{6581A8E8-9B71-42CD-985A-C7AABE7B9CF4}"
+          DTS:ObjectName="{6581A8E8-9B71-42CD-985A-C7AABE7B9CF4}"
           DTS:ValueIndex="4"
           DTS:VariableName="User::ArchivePath" />
       </DTS:ForEachVariableMappings>
