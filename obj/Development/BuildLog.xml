@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>DepartmentHoursAndWagesImport</Name>
-    <LastWriteTime>2024-02-12T17:35:41.4554939Z</LastWriteTime>
+    <LastWriteTime>2024-09-17T17:04:21.2279629Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Package.dtsx</Name>
-      <LastWriteTime>2024-02-12T17:40:58.6908944Z</LastWriteTime>
+      <LastWriteTime>2024-10-07T20:56:32.3028687Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
