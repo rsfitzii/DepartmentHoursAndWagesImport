@@ -2,14 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>DepartmentHoursAndWagesImport</Name>
-    <LastWriteTime>2024-09-17T17:04:21.2279629Z</LastWriteTime>
-    <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    <LastWriteTime>2025-04-30T15:44:49.3419642Z</LastWriteTime>
+    <LastKnownProtectionLevel>EncryptSensitiveWithPassword</LastKnownProtectionLevel>
+    <Salt>PgyIj7Tl</Salt>
+    <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAv3KOgg+w40W9mwZgrwfjsAAAAAACAAAAAAAQZgAAAAEAACAAAACzQefYe0Y+87eqtjLK4xjLW0HKmhz0ye57qubtv8832AAAAAAOgAAAAAIAACAAAABImAqzkT3xqzotVhOo1zYFan6NJhmAQvNPX5oyzMgOCTAAAAB5Oxo+QpCux/R0XOPTPSLHFBAGvL4fK3IP7XPzzZWlMu0toPWaprWzk9AdvJd+P+9AAAAAjTpUoPpX1Ju+8wv1TnAIx9KghbEUdfbqob9oiqIORLeesfulBINViF/UB7RmI37LH3S8bEA3ioVox8jeIpIr6w==</LastKnownProtectedHashedPassword>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Package.dtsx</Name>
-      <LastWriteTime>2024-10-07T20:56:32.3028687Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+      <LastWriteTime>2025-04-30T15:44:47.272311Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithPassword</LastKnownProtectionLevel>
+      <Salt>ky2McJ6h</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAv3KOgg+w40W9mwZgrwfjsAAAAAACAAAAAAAQZgAAAAEAACAAAABFytYWRln3bOUoH6XqZE7IPZCFSMqYOhnw4nqV+J0EPwAAAAAOgAAAAAIAACAAAAA7up+XbkHhN6MsgSraSQrmfyVA7R46QBV8ISVkc+CYejAAAABSbLtrjO6X2lpv95uKuE/+Yr2r0WqwHXmotSfz+RrAmcWkPqv6RLq/86cxm9yz9W5AAAAAN6D/KPqfiGZtAQnCmKAQ5CrHFekhS9hMdBbcUeXrlmBJ1ysxTnd6TW0fCsLhHYRoItmtPlsW22nrgazMDBJp7Q==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
 </BuildLog>

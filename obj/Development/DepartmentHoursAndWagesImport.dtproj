@@ -12,7 +12,7 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{edb01682-b5a4-40a2-8453-8e141e9e548c}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">DepartmentHoursAndWagesImport</SSIS:Property>
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">A108</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASn0RDnQaJ0uvRJ7nrbDPKgAAAAACAAAAAAADZgAAwAAAABAAAAAqVn2bd9A13+tAVx6NINpMAAAAAASAAACgAAAAEAAAACe701jdni91DS9/2cAmYvuIAAAAx7MiU9OeFF+pWBYKxBoghanoITm+MKXbQiWcfnxDtwwAceMsSUPtfwDMHrGcFHE41+b1+39b/5YWp508eLMvH6CpYeEk1WO+TqlNiN/MHHLoaLU2jYwlCNCRKNWU9X0vqhvJ0NLAFBe9N7zx94+BFU5I1eOuOa6sGjmYKs7W+WGFX2nBasM92xQAAABwWdcZsvM2SJw5X814krkFrWndFw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="Wad81OCoQqk=" SSIS:IV="W4fSQCYfMlEEZ6/p4n6YIg==" SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc">8itLv+ZIThfvesX/ZwH3kj3vkkycBc2wtn7gp1W2F27grk5pY3rto+md7VTNUd3rIXMrUtLXwMXJhJde5IuwoD9GHyqo5Eu99uQu5VRlM+B950mUm0IjUUxr7tlPe9vbZKF1RscuEuyaOtNI6exjTM9PgBREobYDChFIEGFNYzVSzL9d4z+a8eOICMW0ks2F</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,14 +42,14 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">74</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">77</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{D6847F98-D647-439E-B103-0C4175CB29E8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{25D01EA2-120D-44EB-9F0B-52C2F052893A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
                 <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager.AlwaysCheckForRowDelimiters">
